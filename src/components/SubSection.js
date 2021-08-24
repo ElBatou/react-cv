@@ -1,7 +1,16 @@
 import React from 'react'
 
 const SubSection = ({ title = null, skills = null, experience = null, achievements = null, projects = null, custom = null }) => {
-    const colors = ['gray', 'red', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink']
+    const colors = [
+        'bg-gray-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-red-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-yellow-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-green-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-blue-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-indigo-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-purple-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
+        'bg-pink-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3'
+    ]
     let iterator = 0
     let flag = true
 
@@ -25,7 +34,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
                                 {skills.map( (skill, index) => {
                                     let customIndex = iterator % colors.length
                                     iterator++
-                                    return (<span key={`skill-item-${index}`} className={`text-white font-bold mr-2 bg-${colors[customIndex]}-700 inline-block p-4 py-2 rounded-2xl mb-3`}>{skill}</span>)
+                                    return (<span key={`skill-item-${index}`} className={`${colors[customIndex]}`}>{skill}</span>)
                                 })}
                             </dd>
                         </div>
