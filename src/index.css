@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .section-wrapper {
+        @apply mr-8 relative;
+    }
+  
+    .section-wrapper::after {
+      content: "";
+      @apply border-r-8 border-primary absolute -right-8 top-0 h-full;
+    }
+  }
+  
