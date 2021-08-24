@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-cv/static/css/main.b72ab152.chunk.css",
+    "main.js": "/react-cv/static/js/main.140d29d3.chunk.js",
+    "main.js.map": "/react-cv/static/js/main.140d29d3.chunk.js.map",
+    "runtime-main.js": "/react-cv/static/js/runtime-main.2239b55b.js",
+    "runtime-main.js.map": "/react-cv/static/js/runtime-main.2239b55b.js.map",
+    "static/js/2.77b74125.chunk.js": "/react-cv/static/js/2.77b74125.chunk.js",
+    "static/js/2.77b74125.chunk.js.map": "/react-cv/static/js/2.77b74125.chunk.js.map",
+    "static/js/3.881042da.chunk.js": "/react-cv/static/js/3.881042da.chunk.js",
+    "static/js/3.881042da.chunk.js.map": "/react-cv/static/js/3.881042da.chunk.js.map",
+    "index.html": "/react-cv/index.html",
+    "static/css/main.b72ab152.chunk.css.map": "/react-cv/static/css/main.b72ab152.chunk.css.map",
+    "static/js/2.77b74125.chunk.js.LICENSE.txt": "/react-cv/static/js/2.77b74125.chunk.js.LICENSE.txt",
+    "static/media/email.a13e130f.svg": "/react-cv/static/media/email.a13e130f.svg",
+    "static/media/github.c9c4779f.svg": "/react-cv/static/media/github.c9c4779f.svg",
+    "static/media/jorge-logo.ef0cbb22.svg": "/react-cv/static/media/jorge-logo.ef0cbb22.svg",
+    "static/media/linkedin.51b73734.svg": "/react-cv/static/media/linkedin.51b73734.svg",
+    "static/media/wordpress.55b966a1.svg": "/react-cv/static/media/wordpress.55b966a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2239b55b.js",
+    "static/js/2.77b74125.chunk.js",
+    "static/css/main.b72ab152.chunk.css",
+    "static/js/main.140d29d3.chunk.js"
+  ]
+}
