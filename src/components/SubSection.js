@@ -2,14 +2,14 @@ import React from 'react'
 
 const SubSection = ({ title = null, skills = null, experience = null, achievements = null, projects = null, custom = null }) => {
     const colors = [
-        'bg-gray-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-red-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-yellow-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-green-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-blue-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-indigo-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-purple-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3', 
-        'bg-pink-700 text-white font-bold mr-2 inline-block p-4 py-2 rounded-2xl mb-3'
+        'bg-gray-700 custom-label', 
+        'bg-red-700 custom-label', 
+        'bg-yellow-700 custom-label', 
+        'bg-green-700 custom-label', 
+        'bg-blue-700 custom-label', 
+        'bg-indigo-700 custom-label', 
+        'bg-purple-700 custom-label', 
+        'bg-pink-700 custom-label'
     ]
     let iterator = 0
     let flag = true
@@ -26,7 +26,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
             <div className="border border-gray-200 mb-6 md:mb-10 section-wrapper">
                 <dl>
                     {skills !== undefined && skills !== null ?
-                        <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                        <div className="bg-gray-50 wrap-section">
                             <dt className="text-2xl font-bold">
                                 skills
                             </dt>
@@ -42,7 +42,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
                     }
 
                     {experience !== undefined && experience !== null ?
-                        <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                        <div className="bg-white wrap-section">
                             <dt className="text-2xl font-bold">
                                 experience
                             </dt>
@@ -54,7 +54,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
                     }
 
                     {achievements !== undefined && achievements !== null ?
-                        <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                        <div className="bg-gray-50 wrap-section">
                             <dt className="text-2xl font-bold">
                                 achievements
                             </dt>
@@ -66,7 +66,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
                     }
 
                     {projects !== undefined && projects !== null ?
-                        <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                        <div className="bg-white wrap-section">
                             <dt className="text-2xl font-bold">
                                 projects
                             </dt>
@@ -95,7 +95,7 @@ const SubSection = ({ title = null, skills = null, experience = null, achievemen
                                     }
 
                                     return (
-                                        <div key={`custom-item-${index}`} className={`${stripes} px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6`}>
+                                        <div key={`custom-item-${index}`} className={`${stripes} wrap-section`}>
                                             <dt className="text-2xl font-bold">
                                                 {item.label}
                                             </dt>
