@@ -9,9 +9,10 @@ function App() {
   const webTechnologies = {
     skills: ['html', 'css', 'less', 'sass', 'javascript', 'php', 'react'],
     experience: [`${today.getFullYear() - 2008} years in general.`,
-      '2 Years experience in react.'],
+      `${today.getFullYear() - 2018} Years experience in react.`],
     achievements: 'Both as an independent or as part of a company, I have built a reputation as a very fast worker with high quality in terms of soft skills and website development.',
     projects: [
+      { link: 'https://www.cmecenter.com/', label: 'Presentational website using React as the frontend but using a custom framework with a Wordpress backend (wordpres/react)' },
       { link: 'https://www.tecma.com/', label: 'Presentational website with a custom page builder based on Gutenberg blocks (wordpress/bedrock/sage/blade).' },
       { link: 'https://stage.pralaw.com/', label: 'Presentational website with a custom page builder based on Gutenberg blocks, aimed at speed (wordpress/bedrock/sage/blade).' },
       { link: 'https://www.eliteediting.com.au/', label: 'Online service similar to UpWork  but aimed at Academic Editing  (wordpress/elementor/gravityforms).' }
@@ -41,7 +42,7 @@ function App() {
   const frameworks = {
     skills: ['codeigniter', 'wordpress', 'joomla', 'moodle', 'drupal', 'django', 'gatsbyjs', 'woocommerce', 'tailwindcss', 'bootstrap', 'foundation'],
     experience: [`${today.getFullYear() - 2009} years.`],
-    achievements: `Adaptability and Flexibility to work on multiple frameworks. But lately with Wordpress and react projects. I\'ve been promoted many times during my career.<br /><br />
+    achievements: `Adaptability and Flexibility to work on multiple frameworks. But lately with Wordpress and react projects. I've been promoted many times during my career.<br /><br />
     From Programer to Team Lead to Project Manager, and sometimes Designer roles, but all this happened over many iterations, so one of the best achievements was for 
     me to experience the whole process.`,
     projects: [
