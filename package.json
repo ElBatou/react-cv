@@ -1,50 +1,33 @@
 {
   "name": "react-cv",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://elbatou.github.io/react-cv",
-  "dependencies": {
-    "-": "^0.0.1",
-    "@craco/craco": "^6.2.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "gh-pages": "^3.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "save-dev": "^0.0.1-security",
-    "web-vitals": "^1.0.1"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "craco start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all -p dev:*",
+    "build": "run-s build:*",
+    "dev:11ty": "eleventy --serve",
+    "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss",
+    "build:11ty": "eleventy",
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBatou/react-cv.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElBatou/react-cv/issues"
   },
+  "homepage": "https://github.com/ElBatou/react-cv#readme",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+    "@11ty/eleventy": "^1.0.2",
+    "autoprefixer": "^10.4.12",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
   }
 }
