@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/react-cv/",
     dir: {
       input: "src",
       data: "_data",
