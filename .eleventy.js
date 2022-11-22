@@ -1,7 +1,7 @@
 const pageHeading = require("./src/_includes/shortcodes/pageHeading");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+  eleventyConfig.addPassthroughCopy("src/assets/css/tailwind.css");
   eleventyConfig.addPassthroughCopy("src/assets/images");
 
   eleventyConfig.addShortcode("pageHeading", pageHeading);
