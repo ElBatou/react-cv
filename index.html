@@ -1,1 +1,661 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/react-cv/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/react-cv/logo192.png"/><link rel="manifest" href="/react-cv/manifest.json"/><title>React App</title><link href="/react-cv/static/css/main.68ac450d.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],s=0,p=[];s<i.length;s++)a=i[s],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&p.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"881042da"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/react-cv/",a.oe=function(e){throw console.error(e),e};var i=this["webpackJsonpreact-cv"]=this["webpackJsonpreact-cv"]||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var f=c;t()}([])</script><script src="/react-cv/static/js/2.77b74125.chunk.js"></script><script src="/react-cv/static/js/main.ce051ebc.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <title>Jorge Cortez - Senior Frontend developer - CV</title>
+    <meta name="description" content="
+    
+      Lead Mobile UI/UX Developer, Senior Front End Design Sorcerer, Heavyweight User Centered Design.
+    
+    " />
+  </head>
+
+  <body>
+    <header class="max-w-3xl xl:max-w-6xl mx-auto flex flex-wrap justify-between px-4 lg:px-0 border-b-2 border-gray-300 my-6">
+    <section id="hero" class="basis-full sm:basis-3/6 py-4">
+        <h1 class="h1 mb-4">
+            <small>Hello, I'm</small>
+            <br/>
+            <span class="text-gray-500">Jorge Cortez</span>
+        </h1>
+        <p id="tagline" class="text-gray-400 text-lg mb-2">
+            I'm a Senior Frontend Developer from Bolivia.
+        </p>
+        <ul class="flex items-center space-x-4">
+            <li>
+                <a href="mailto:ferco_clpm@hotmail.com" target="_blank" rel="nofollow noreferrer">
+                    <img src="assets/images/email.svg" alt="Email" class="w-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jorge-fernando-cortez-guillen-a56a8222/" target="_blank" rel="nofollow noreferrer">
+                    <img src="assets/images/linkedin.svg" alt="Linkedin" class="w-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ElBatou" target="_blank" rel="nofollow noreferrer">
+                    <img src="assets/images/github.svg" alt="Github" class="w-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://fernandoclpm.wordpress.com/" target="_blank" rel="nofollow noreferrer">
+                    <img src="assets/images/wordpress.svg" alt="Blog" class="w-10 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"/>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section id="contact" class="basis-full sm:basis-2/6 py-4">
+        <dl>
+            <dt class="font-bold">Website:</dt>
+            <dd class="text-gray-400 mb-4">
+                <a href="https://fernandoclpm.wordpress.com/" target="_blank">fernandoclpm.wordpress.com</a>
+            </dd>
+
+            <dt class="font-bold">Email:</dt>
+            <dd class="text-gray-400 mb-4">
+                <a href="mailto:ferco_clpm@hotmail.com">ferco_clpm@hotmail.com</a>
+            </dd>
+
+            <dt class="font-bold">Phone:</dt>
+            <dd class="text-gray-400 mb-4">
+                <a href="tel:59172722547">(591)-727-22547</a>
+            </dd>
+        </dl>
+    </section>
+</header>
+    <main class="max-w-3xl xl:max-w-6xl mx-auto py-4">
+      
+<div class="flex flex-wrap justify-between px-4 lg:px-0">
+  <section class="basis-full sm:basis-5/12 mb-12">
+  <h2 class="h2 mb-4">Education</h2>
+
+  <article>
+    <h3 class="h3 mb-1">Systems Engineer Degree</h3>
+    <p class="text-gray-500 mb-2">
+      <time datetime="2002-02-11">2002</time>
+      -
+      <time datetime="2008-11-21">2008</time>
+    </p>
+    <p>
+      <a href="https://www.umss.edu.bo/" target="_blank" class="anchor">Universidad Mayor de San Simón</a>.
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Berlitz French Learning Program</h3>
+    <p class="text-gray-500 mb-2">
+      <time datetime="2010-06-07">2010</time>
+      -
+      <time datetime="2011-03-18">2011</time>
+    </p>
+    <p>French language, basic level.</p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">English Program, American Languaje Course</h3>
+    <p class="text-gray-500 mb-2">
+      <time datetime="2008-04-03">2008</time>
+      -
+      <time datetime="2010-10-11">2010</time>
+    </p>
+    <p>
+      <a href="http://www.escueladeidiomasejto.com/" target="_blank" class="anchor">Escuela de Idiomas del Ejercito Bolivia</a>
+      <br/>
+      Language learning program for the Bolivian army.</p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Training course for rescue</h3>
+    <p class="text-gray-500 mb-2">
+      <time datetime="2009-02-07">2009</time>
+      -
+      <time datetime="2010-09-02">2010</time>
+    </p>
+    <p>Grupo de salvamento SAR-Bolivia
+      <br/>
+      Volunteer in rescue and first aid for SAR group in the city of Cochabamba.</p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Computer assembly</h3>
+    <p class="text-gray-500 mb-2">
+      <time datetime="2006-06-27">2006</time>
+      -
+      <time datetime="2007-11-08">2007</time>
+    </p>
+    <p>
+      <a href="https://www.umss.edu.bo/" target="_blank" class="anchor">Universidad Mayor de San Simón</a>
+      <br/>
+      Assembly and Repair of computers.</p>
+  </article>
+
+</section>
+
+  <section class="basis-full sm:basis-6/12 mb-12">
+  <h2 class="h2 mb-4">Skills</h2>
+  <ul class="grid grid-cols-2 gap-2">
+    <li>Vanilla javascript</li>
+    <li>React</li>
+    <li>Redux/Sagas</li>
+    <li>Wordpress</li>
+    <li>Woocommerce</li>
+    <li>Tailwindcss</li>
+    <li>Firebase</li>
+    <li>Git</li>
+    <li>ITCSS</li>
+    <li>BEM</li>
+    <li>Scrum/XP/Pomodore</li>
+    <li>Php</li>
+    <li>Docker</li>
+    <li>Html/Css</li>
+    <li>Less/Sass</li>
+    <li>Java</li>
+    <li>CodeIgniter</li>
+    <li>Jquery</li>
+    <li>Roots/Sage</li>
+    <li>Joomla</li>
+    <li>Moodle</li>
+    <li>Grunt/Gulp</li>
+    <li>Nodejs</li>
+    <li>Drupal</li>
+    <li>Bootstrap</li>
+    <li>Foundation</li>
+    <li>Mysql/Mariadb</li>
+    <li>Postgresql</li>
+    <li>Sqlite</li>
+    <li>Mongodb</li>
+    <li>Datocms</li>
+    <li>Contentful</li>
+    <li>Photoshop</li>
+    <li>Illustrator</li>
+    <li>Figma</li>
+    <li>Balsamiq</li>
+    <li>SEO Keywords</li>
+    <li>SEO MetaTags</li>
+    <li>Social Marketing</li>
+    <li>GTM</li>
+    <li>Ranking management</li>
+  </ul>
+</section>
+</div>
+
+<section class="px-4 lg:px-0 mb-12">
+  <h2 class="h2 mb-4">Work Experience</h2>
+
+  <article>
+    <h3 class="h3 mb-1">Senior Frontend developer/Freelancer</h3>
+    <p class="text-gray-500 mb-2">
+      MattressZone
+      <time datetime="2021-01">2021</time>
+      -
+      <time datetime="2022-06-06">2022</time>
+    </p>
+    <p>
+      Working remotely I developed a series of websites to promote affiliate links using
+      <a href="https://www.gatsbyjs.com/" class="anchor" target="_blank">GatsbyJS</a>,
+      <a href="https://www.datocms.com/" class="anchor" target="_blank">DatoCMS</a>
+      and
+      <a href="https://tailwindcss.com/" class="anchor" target="_blank">TailwindCSS.</a>
+    </p>
+    <p>All the websites are fully responsive with support for
+      <span class="label">Dark mode</span>,
+      <span class="label">Accesbility</span>
+      and
+      <span class="label">Multiple languages</span>.
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Web developer</h3>
+    <p class="text-gray-500 mb-2">
+      Incore
+      <time datetime="2020-01">2020</time>
+      -
+      <time datetime="2021-01">2021</time>
+    </p>
+    <p>
+      Working remotely for a software agency that develops custom tailored website applications and
+      <span class="label">E-commerce</span>
+      using
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>,
+      <a href="https://roots.io/sage/" class="anchor" target="_blank">Sage</a>
+      <span class="label">Vanilla JS</span>, <span class="label">Sass</span>, 
+      <a href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/" target="_blank" class="anchor">ITCSS</a>, 
+      <a href="https://getbem.com/" target="_blank" class="anchor">BEM</a>
+      and
+      <a href="https://getbootstrap.com/" class="anchor" target="_blank">Bootstrap.</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Software applications and web development as a Freelancer</h3>
+    <p class="text-gray-500 mb-2">
+      Freelancer
+      <time datetime="2018-01">2018</time>
+      -
+      <time datetime="2020-01">2020</time>
+    </p>
+    <p>
+      Learned the benefits and challenges as a freelenacer to improve the:
+      <span class="label">Client communication</span>,
+      <span class="label">How to run costs</span>,
+      <span class="label">Time management</span>,
+      <span class="label">How to establish my brand
+      </span>
+      and of course my favourite...
+      <span class="label">Work from home during the pandemic!</span>.
+    </p>
+    <p>
+      I focused mostly on
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>
+      and
+      <a href="https://reactjs.org/" class="anchor">ReactJS</a>
+      projects during this time.
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Web developer</h3>
+    <p class="text-gray-500 mb-2">
+      WillingWeb
+      <time datetime="2014-01">2014</time>
+      -
+      <time datetime="2018-01">2018</time>
+    </p>
+    <p>
+      A software agency that develops custom tailored website applications and
+      <span class="label">E-commerce</span>
+      using
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>,
+      <a href="https://oceanwp.org/" class="anchor" target="_blank">OceanWP</a>, developing custom widgets and addons for
+      <a href="https://elementor.com/" class="anchor" target="_blank">Elementor</a>
+      and
+      <a href="https://getbootstrap.com/" class="anchor" target="_blank">Bootstrap.</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Web developer</h3>
+    <p class="text-gray-500 mb-2">
+      NoozooDesign
+      <time datetime="2010-07">2010</time>
+      -
+      <time datetime="2014-01">2014</time>
+    </p>
+    <p>
+      Working remotely for a web software agency that develops custom tailored website applications for
+      <span class="label">e-learning</span>
+      platform and services using:
+      <a href="https://www.drupal.org/" class="anchor" target="_blank">Drupal</a>,
+      <a href="https://moodle.org/" class="anchor" target="_blank">Moodle</a>,
+      <a href="https://www.codeigniter.com/" class="anchor" target="_blank">CodeIgniter</a>
+      and
+      <a href="https://get.foundation/" class="anchor" target="_blank">Foundation</a>
+    </p>
+    <p>
+      The main advantage of working for this company was that I learned the Adaptability and Flexibility to work on multiple frameworks and setups.
+    </p>
+    <p>
+      I also created a custom spreadsheet application with the goal to be used as a tool to train users with advanced usages for excel and similar programs,
+      by providing a series of excercices with automatic validation, ease of customization and the creation of new exercises.
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Web developer</h3>
+    <p class="text-gray-500 mb-2">
+      Validoc
+      <time datetime="2010-01">2010</time>
+    </p>
+    <p>
+      A software agency that focused on the development of
+      <span class="label">E-commerce</span>
+      and
+      <span class="label">Progressive web apps</span>, using mostly
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">Project Manager</h3>
+    <p class="text-gray-500 mb-2">
+      DesignBoxweb
+      <time datetime="2009-01">2009</time>
+      -
+      <time datetime="2010-01">2010</time>
+    </p>
+    <p>
+      A web software agency that develops custom tailored website applications using:
+      <a href="https://www.codeigniter.com/" class="anchor" target="_blank">CodeIgniter</a>
+      and
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>
+    </p>
+    <p>
+      When I joined the crew in DesignBoxweb I inherited a very unstable CMS that it was a mystery to the other employees, a web application that was inaccessible and only worked in Internet Explorer, and a technical team that had no members.
+    </p>
+    <p>
+      I redesigned the CMS giving it more stability and scalability according to customer requirements of this project, and managed to build a successful technical team.
+    </p>
+    <p>
+      I ended up developing a custom CMS after that experience based on CodeIgniter that I used during my freelancer stage.
+    </p>
+    <p>
+      Working with
+      <a href="https://wordpress.org/" class="anchor" target="_blank">Wordpress</a>
+      I managed to implement a very clean structure that provided a solid foundation for the websites to receive updates safely over time.
+    </p>
+
+  </p>
+</article>
+
+<article>
+  <h3 class="h3 mb-1">Project Manager</h3>
+  <p class="text-gray-500 mb-2">
+    WebStudio
+    <time datetime="2018-01">2007</time>
+    -
+    <time datetime="2020-01">2009</time>
+  </p>
+  <p>
+    A local web software agency that develops custom tailored website applications using:
+    <a href="https://www.codeigniter.com/" class="anchor" target="_blank">CodeIgniter</a>,
+    <a href="https://cakephp.org/" class="anchor" target="_blank">CakePHP</a>,
+    <a href="https://symfony.com/" class="anchor" target="_blank">Symfony</a>,
+    <a href="https://www.zen-cart.com/" class="anchor" target="_blank">Zen-cart</a>
+  </p>
+  <p>
+    This was my first serious job. And I was able to move up the ranks from
+    <span class="label">Programer</span>
+    to
+    <span class="label">Team Lead</span>
+    to
+    <span class="label">Project Manager</span>, and sometimes Designer roles, but all of this happened over many iterations, 
+    so one of the best achievements for me was that I was able to experience the whole process and improve my technical and soft skills.
+  </p>
+</article>
+
+<article>
+  <h3 class="h3 mb-1">English teacher</h3>
+  <p class="text-gray-500 mb-2">
+    Bolivian Army Language School
+    <time datetime="2009-01">2009</time>
+    -
+    <time datetime="2010-01">2010</time>
+  </p>
+  <p>
+    This was a nice side gig at a language school. That allowed me to improve my
+    <span class="label">English</span>
+    level but also my
+    <span class="label">Teaching</span>
+    and
+    <span class="label">Learning</span>
+    strategies.
+  </p>
+</article>
+
+</section>
+
+<section class="px-4 lg:px-0 mb-12">
+  <h2 class="h2 mb-4">
+    Projects
+  </h2>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Mattress.zone
+      <a href="https://mattress.zone/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      ReactJS, GatbysJS, Tailwindcss, DatoCMS, PWA
+    </p>
+    <p>
+      A set of multiple websites with different languages: spanish, english, german, french, italian. With Dark mode support, that allows any visitor to 
+      perform dyanmic side by side comparissons for mattresses up to 4 items.
+      With high page speed scores.
+      <a href="https://mattress.zone/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Louvresystems
+      <a href="https://www.louvresystems.co.nz/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Sage, Custom plugin
+    </p>
+    <p>
+      This project had a nice challenge to migrate a really old codebase that performed calucaltions of materials needed for the assembly of louvers for any given project, into gravityforms and custom addons developed specifically for this project.
+      <a href="https://www.louvresystems.co.nz/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      CME Center
+      <a href="https://www.cmecenter.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpres, ReactJS
+    </p>
+    <p>
+      Presentational website using React with styled components as the frontend and a custom framework with Wordpress as the backend
+      <a href="https://www.cmecenter.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Tecma
+      <a href="https://www.tecma.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Bedrock, Sage, Blade
+    </p>
+    <p>
+      Presentational website with a custom page builder based on Gutenberg blocks
+      <a href="https://www.tecma.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Pralaw
+      <a href="https://stage.pralaw.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Bedrock, Sage, Blade
+    </p>
+    <p>
+      Presentational website with a custom page builder based on Gutenberg blocks, with a high performance
+      <a href="https://stage.pralaw.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      EliteEditing
+      <a href="https://www.eliteediting.com.au/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Elementor, Gravityforms
+    </p>
+    <p>
+      Responsive website used to coordinate the projects of freelancing editors. The project uses a custom page builder based on Gutenberg blocks, 
+      with high performance and a custom gravityforms addon developed to fit the client's requirements.
+      <a href="https://www.eliteediting.com.au/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      SmartartSouth
+      <a href="https://smartartsouth.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Sage
+    </p>
+    <p>
+      Web Agency main website
+      <a href="https://smartartsouth.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Community Cleaning and Maintenance
+      <a href="https://communitycleaningandmaintenance.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Sage
+    </p>
+    <p>
+      Simple website
+      <a href="https://communitycleaningandmaintenance.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Glennsflooring
+      <a href="https://glennsflooring.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Custom Plugins developed
+    </p>
+    <p>
+      Simple website
+      <a href="https://glennsflooring.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Dixiefry
+      <a href="https://dixiefry.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Custom Plugins developed
+    </p>
+    <p>
+      Built on a budget. Very clean code with custom effects for the recipes
+      <a href="https://dixiefry.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      Oh-institute
+      <a href="https://oh-institute.org/main/home.php" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      PHP, Plain code
+    </p>
+    <p>
+      It was one of my very first projects and it's still alive! I'm happy to list it here.
+      <a href="https://oh-institute.org/main/home.php" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      BoardDirection
+      <a href="https://boarddirection.com.au/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Elementor, Custom plugin, Woocommerce, Subscriptions
+    </p>
+    <p>
+      Responsive online training website with Membership e-commerce
+      <a href="https://boarddirection.com.au/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      BuildinOZ
+      <a href="https://buildinoz.com.au/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Sage
+    </p>
+    <p>
+      Responsive real state website, with focus on marketing and analitics
+      <a href="https://buildinoz.com.au/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      GreenTestPrep
+      <a href="https://greentestprep.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Keap formerly infusionsoft
+    </p>
+    <p>
+      Responsive training program for SAT and ACT exams with integration to an external CRM system
+      <a href="https://greentestprep.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+
+  <article>
+    <h3 class="h3 mb-1">
+      EpicProacademy
+      <a href="https://epicproacademy.com/" target="_blank">
+        <img src="assets/images/link2.svg" alt="Link to the website" class="inline w-5 hover:animate-shake-icon relative -top-[2px]"/>
+      </a>
+    </h3>
+    <p class="text-gray-500 mb-2">
+      Wordpress, Custom plugin, Keap formerly infusionsoft, Learndash
+    </p>
+    <p>
+      Responsive website that sells training programs for real state businesses
+      <a href="https://epicproacademy.com/" class="anchor" target="_blank">visit project</a>
+    </p>
+  </article>
+</section>
+    </main>
+    <footer class="bg-black text-white py-4">
+  <div class="max-w-3xl xl:max-w-6xl mx-auto px-4 lg:px-0">
+    <p class="text-center text-sm">&copy; 2022 Jorge Cortez. All rights reserved</p>
+  </div>
+</footer>
+  </body>
+
+</html>
