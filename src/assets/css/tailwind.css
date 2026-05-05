@@ -33,3 +33,43 @@
     @apply text-sky-600 font-bold underline hover:no-underline;
   }
 }
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+
+  .label {
+    background: none;
+    border: 1px solid #ccc;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
